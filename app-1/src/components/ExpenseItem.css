@@ -1,0 +1,29 @@
+.expense-item{
+    display: flex;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: cadetblue;
+    justify-content: space-around;
+  
+}
+
+
+
+.expense-item__des{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    
+}
+
+.expense-item__price{
+    border: 1px white solid;
+    width: 15%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: rgb(54, 1, 54);
+    text-align: center;
+    color: white;
+}
