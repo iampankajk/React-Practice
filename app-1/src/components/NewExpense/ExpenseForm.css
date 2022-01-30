@@ -1,0 +1,37 @@
+.expense-form{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.expense-control{
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+ 
+
+}
+.expense-control>input{
+    width: 18rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.expense-action{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.expense-action>button{
+    width: 10rem;
+    color: white;
+    background-color: rgb(54, 1, 54);
+    border-radius: 10px;
+    height: 3rem;
+}

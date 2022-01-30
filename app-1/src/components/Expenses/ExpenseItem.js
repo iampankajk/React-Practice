@@ -1,6 +1,8 @@
+import React,{useState} from 'react';
 import './ExpenseItem.css';
+
 import ExpenseDate from './ExpenseDate';
-function ExpenseItem({ title, date, amount }) {
+const ExpenseItem = ({ title, date, amount })=> {
 
 
     return (

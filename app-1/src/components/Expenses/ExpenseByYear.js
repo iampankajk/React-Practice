@@ -1,7 +1,7 @@
 import ExpenseItem from "./ExpenseItem";
 import './ExpenseByYear.css';
 
-function ExpenseByYear({expenses}) {
+const ExpenseByYear = ({expenses})=> {
 
     return (
         <div className="expenses-by-year">
