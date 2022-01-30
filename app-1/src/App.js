@@ -10,9 +10,14 @@ const App = ()=> {
     { title: 'Rent', date: new Date(2022, 3, 27), amount: 300 },
     { title: 'Electricity', date: new Date(2022, 2, 27), amount: 100 },
   ]
+
+  const addExpenseHandler = (expense)=>{
+    expenses.push(expense)
+    console.log(expenses)
+  }
   return (
     <div className="App">
-      <NewExpense></NewExpense>
+      <NewExpense onAddExpense={addExpenseHandler}></NewExpense>
         <ExpenseByYear expenses={expenses}></ExpenseByYear>
       
    </div>
