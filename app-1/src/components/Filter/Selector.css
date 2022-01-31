@@ -1,0 +1,17 @@
+.selector{
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+    width: 90%;
+    margin: auto;
+}
+
+.selector>select{
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    margin: auto 0px;
+    border-radius: 5px;
+}
