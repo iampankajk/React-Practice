@@ -12,11 +12,11 @@ const Selector = (props)=>{
     return (
         <div className="selector">
             <h2>Filter by year</h2>
-            <select onChange={yearHandler}>
-                <option>2019</option>
-                <option>2020</option>
-                <option>2021</option>
-                <option>2022</option>
+            <select value={props.AddYear} onChange={yearHandler}>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
             </select>
         </div>
     )

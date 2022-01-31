@@ -2,15 +2,15 @@ import React from "react";
 import Selector from "./Selector";
 
 
-const Filters = ()=>{
+const Filters = (props)=>{
 
     const yearHandler = (year)=>{
-        console.log(year);
+        props.onAddFilter(year);
     }
 
     return (
         <div>
-            <Selector onAddYear={yearHandler}></Selector>
+            <Selector onAddYear={yearHandler} AddYear={props.AddYear}></Selector>
         </div>
     )
 };
