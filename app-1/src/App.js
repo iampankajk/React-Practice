@@ -27,7 +27,7 @@ const App = () => {
 
   const filterHandler = (year)=>{
     setYear(year)
-    const filterExpenses = DummyExpense.filter(expense=> expense.date.getFullYear()==year)
+    const filterExpenses = DummyExpense.filter(expense=> expense.date.getFullYear().toString()===year)
     setNewExpense(filterExpenses)
   }
 
