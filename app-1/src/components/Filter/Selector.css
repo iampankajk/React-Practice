@@ -1,7 +1,6 @@
 .selector{
     display: flex;
     justify-content: space-between;
-    border: 1px red solid;
     width: 90%;
     margin: auto;
 }

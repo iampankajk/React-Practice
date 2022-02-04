@@ -4,6 +4,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 import Filters from "./components/Filter/Filters";
 import Card from "./components/Card/Card";
 
+
  const DummyExpense = [
     { title: 'Car Insuarance', date: new Date(2022, 1, 27), amount: 200 },
     { title: 'Investment', date: new Date(2019, 5, 27), amount: 500 },
