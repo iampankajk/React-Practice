@@ -1,0 +1,20 @@
+.user-input{
+    width: 90%;
+    border: 1px red solid;
+    margin: auto;
+    
+}
+.user-input input,.user-input h2{
+    width: 90%;
+    margin-left: 25px;
+}
+.button-box{
+    margin: 10px auto auto 25px ;
+}
+button{
+    width: 20%;
+    background-color: rgb(130, 46, 138);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
