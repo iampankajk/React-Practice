@@ -31,7 +31,7 @@ const CourseInput = props => {
          placeholder={!isValid ? 'Invalid Goal' : 'Enter Goal'}
           />
       </div>
-      <Button type="submit">Add Goal</Button>
+      <Button type="submit" Onclick={clickHandle}>Add Goal</Button>
     </form>
   );
 };
